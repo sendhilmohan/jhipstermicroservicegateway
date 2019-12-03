@@ -1,0 +1,46 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "gitCompany": "",
+    "baseName": "jhipstermicroservicegateway",
+    "packageName": "com.sella",
+    "packageFolder": "com/sella",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.5.1",
+    "jwtSecretKey": "OGIxNGU0ZTI1NzFjMDVkZjRiYzhmMzVjOTU3MmZmNTViMTcxOWM0NGFiNmU0YmEzYzQ5NzQ2YmZmYmViY2RhOGNiNmRiZWY3YjVlMTgwMDA3M2RmMzE3ZDE0OGMzYjBjNmQ3NmExZWYzNzZlOGY1MDA2YWJlYzI2ZDFlYTk0NjA=",
+    "embeddableLaunchScript": false,
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "sendhilmohan",
+  "repository-name": "jhipstermicroservicegateway"
+}
